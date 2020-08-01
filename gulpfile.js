@@ -6,7 +6,7 @@ const concat = require("gulp-concat");
 
 gulp.task("pug", () => {
   return gulp
-    .src("app/pug/**/*.pug")
+    .src("app/pug/*.pug")
     .pipe(
       pug({
         pretty: true,
